@@ -3,3 +3,50 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  align-items: flex-end;
+  justify-content: right;
+}
+.countries--second {
+  align-items: flex-end;
+  justify-content: center;
+}
+.countries--third {
+  align-items: flex-start;
+  justify-content: center;
+}
+.countries--third li:nth-child(1) {
+  align-self: flex-end;
+}
+.countries--fourth {
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+.countries--fourth li:nth-child(3) {
+  align-self: center;
+}
+.countries--fourth li:nth-child(4) {
+  align-self: center;
+}
+.countries--fifth {
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.countries--fifth li:nth-child(4) {
+  order: 1;
+}
+.countries--fifth li:nth-child(1) {
+  order: 5;
+}
+.countries--fifth li:nth-child(2) {
+  order: 4;
+}
+.countries--fifth li:nth-child(5) {
+  order: 2;
+  align-self: center;
+}
+.countries--fifth li:nth-child(3) {
+  order: 3;
+}
