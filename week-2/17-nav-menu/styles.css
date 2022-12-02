@@ -1,1 +1,6 @@
 /* Write your media queries and flexbox CSS below */
+@media (min-width: 768px) {
+  .countries {
+    columns: 2;
+  }
+}
